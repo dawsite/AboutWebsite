@@ -18,16 +18,14 @@ h2 {
     border-top-style: dotted;
     border-color: gray;
     border-width: 8px;
-    width: 4%;
+    width: 7%;
   }
 #h1top {
   margin-top: 50px;
   margin-bottom: 50px;
-  font-size: 3.5rem;
   color: #252a34;
 }
 #h3top {
-  font-size: 1.5rem;
   color: #252a34;
 }
 #daw {height: 200px;
