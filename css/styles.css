@@ -1,0 +1,111 @@
+body{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+h1{
+    margin-top: 15px;
+    font-size: 50px;
+}
+
+h3{font-family: 'Noto Serif', serif;color: #512D6D;}
+
+p{margin-top: 10px;font-size: 20px;}
+
+a{color: #D9E4DD;}
+
+
+
+.top-container{padding-top: 100px;background-color: #7952B3;height: 650px;font-family: 'Pacifico', cursive;color: #D9E4DD;}
+
+
+.middle-container{width: 50%;margin: auto;text-align: center;color: #542E71;}
+
+.img-top{width: 13%;}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: gray;
+  border-width: 8px;
+  width: 10%;
+}
+
+
+
+
+
+#p{font-size: 1rem;}
+
+#design{position: absolute;
+left: 15%;}
+#marketing{position: absolute;left: 30%;}
+#development{position: absolute;left: 45%;}
+#language{position: absolute;right: 30%;}
+#music{position: relative;left: 30%;}
+
+
+@import url(https://fonts.googleapis.com/css?family=BenchNine:700);
+.snip1582 {
+  background-color: #7952B3;
+  border: none;
+  color: #D9E4DD;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'BenchNine', Arial, sans-serif;
+  font-size: 1em;
+  font-size: 22px;
+  line-height: 1em;
+  margin: 15px 40px;
+  outline: none;
+  padding: 12px 40px 10px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.snip1582:before,
+.snip1582:after {
+  border-color: transparent;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  border-style: solid;
+  border-width: 0;
+  content: "";
+  height: 24px;
+  position: absolute;
+  width: 24px;
+}
+
+.snip1582:before {
+  border-color: #7952B3;
+  border-top-width: 2px;
+  left: 0px;
+  top: -5px;
+}
+
+.snip1582:after {
+  border-bottom-width: 2px;
+  border-color: #7952B3;
+  bottom: -5px;
+  right: 0px;
+}
+
+.snip1582:hover,
+.snip1582.hover {
+  background-color: #7952B3;
+}
+
+.snip1582:hover:before,
+.snip1582.hover:before,
+.snip1582:hover:after,
+.snip1582.hover:after {
+  height: 100%;
+  width: 100%;
+}
+
+#h3{color: #D9E4DD;}
+.bottom-container{background-color: #7952B3;height: 150px;padding-top: 15px;color: #D9E4DD;}
